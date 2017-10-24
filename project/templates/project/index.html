@@ -1,0 +1,40 @@
+
+<head>
+	<title>Home</title>
+
+	{% load static %}
+	<link href="bootstrap.min.css" rel="stylesheet" type="text/css"/>
+	<link rel="stylesheet" type="text/css" href="{% static 'project/style.css' %}" >
+</head>
+
+
+<body>
+
+<div class="full_body">
+	<div class="header">
+		<h2>PHISHING WEBSITE DETECTOR</h2>
+	</div>
+
+	<div class="main_body">
+		
+		<form id="form1" method="post">
+			{% csrf_token %}
+			<p id="text1">Enter the full URL below (or copy and paste it here)</p>
+			{{ form.post }}
+			<!--<input type="text" name="web_url" size="110">-->
+			
+			<button id="checker">Check URL</button>
+		</form>
+
+		
+		<h4 id="result">{{ msg }}</h4>
+
+	</div>
+
+	<div class="footer">
+		<p id="ftext">Created by Md. Hasan Ragib Ullah and Md. Nafis Ahmed</p>
+	</div>
+</div>
+
+
+</body>

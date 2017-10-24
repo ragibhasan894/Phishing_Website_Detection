@@ -1,0 +1,69 @@
+
+
+.full_body {
+	width: 98%;
+	margin: 0px auto;
+	height: auto;
+	background-color: #edf7f7;
+	overflow: ;
+}
+
+#post-form {
+	color: red;
+}
+
+.header {
+	height: 40px;
+	width: 100%;
+	background-color: #7FDBFF;
+	text-align: center;
+	margin: 0px;
+}
+
+.main_body {
+	height: 550px;
+	width: 100%;
+	background-color: #edf7f7;
+	margin: 0px;
+}
+
+.footer {
+	height: 40px;
+	width: 100%;
+	background-color: #001f3f;
+	text-align: center;
+	margin: 0px;
+}
+
+
+
+#text1 {
+	font-size: 14px;
+	margin-left: 2px;
+}
+
+* {
+	box-sizing: border-box;
+	font-family: serif;
+}
+
+#form1 {
+	padding: 150px 250px;
+}
+
+#checker {
+	margin-left: 300px;
+	margin-top: 15px;
+}
+
+#ftext {
+	color: grey;
+	padding-top: 6px;
+}
+
+
+#result {
+	color: green;
+	margin-left: 255px;
+}
+
